@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="big_card_padding">10dp</dimen>
+    <dimen name="big_card_padding_twice">20dp</dimen>
+    <dimen name="spacer">2dp</dimen>
+    <dimen name="big_card_padding_card_bottom">12dp</dimen>
+
+    <dimen name="nimbo_img_len">50dp</dimen>
+    <dimen name="nimbo_media_by_period_list_item_height">70dp</dimen>
+    
+    <dimen name="std_item_hpad">8dp</dimen>
+    <dimen name="std_item_hpad_thin">4dp</dimen>
+    <dimen name="std_item_vpad">4dp</dimen>
+    <dimen name="std_item_vpad_shadow">6dp</dimen>
+    <dimen name="std_item_hmar">8dp</dimen>
+    <dimen name="std_item_vmar">4dp</dimen>
+    <dimen name="std_screen_hpad">8dp</dimen> <!-- was 16, looks too wide -->
+    
+    <dimen name="std_item_hpad_twice">16dp</dimen>
+    
+</resources>

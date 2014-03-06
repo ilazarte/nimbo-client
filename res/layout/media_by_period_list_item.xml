@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nimbo_media_by_period_list_item_height"
+    android:background="@drawable/big_card"
+    android:paddingLeft="@dimen/std_screen_hpad"
+    android:paddingRight="@dimen/std_screen_hpad"
+    android:paddingTop="@dimen/std_item_vpad"
+    android:paddingBottom="@dimen/std_item_vpad">
+
+    <TextView
+        android:id="@+id/media_by_period_list_item_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/main_text"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/std_item_hmar" />
+
+    <TextView
+        android:id="@+id/media_by_period_list_item_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/main_text"
+        android:layout_marginLeft="@dimen/std_item_hmar"
+        android:layout_below="@id/media_by_period_list_item_month" />
+
+    <ImageView
+        android:id="@+id/media_by_period_list_item_image_1"
+        android:layout_width="@dimen/nimbo_img_len"
+        android:layout_height="@dimen/nimbo_img_len"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/std_item_hpad_thin" />
+
+    <ImageView
+        android:id="@+id/media_by_period_list_item_image_2"
+        android:layout_width="@dimen/nimbo_img_len"
+        android:layout_height="@dimen/nimbo_img_len"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/media_by_period_list_item_image_1"
+        android:layout_marginRight="@dimen/std_item_hpad_thin" />
+    
+    <ImageView
+        android:id="@+id/media_by_period_list_item_image_3"
+        android:layout_width="@dimen/nimbo_img_len"
+        android:layout_height="@dimen/nimbo_img_len"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/media_by_period_list_item_image_2"
+		android:layout_marginRight="@dimen/std_item_hpad_thin"  />
+    
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nimbo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello from Android!</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    
+    <string name="action_discard">Discard</string>
+    <string name="action_settings">Settings</string>
+	<string name="action_search">Search</string>
+	<string name="action_find_media">Find Media</string>
+	
+	<string name="toast_discard">Image cache has been cleared.</string>
+	<string name="toast_load">Loading all images.</string>
+</resources>
